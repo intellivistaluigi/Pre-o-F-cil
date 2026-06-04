@@ -22,7 +22,7 @@
     <section id="sobre-mim">
         <h2>sobre mim</h2>
 
-        <img src="https://contabilidademainhardt.com.br/wp-content/uploads/2021/02/LOGO.png" alt="Logo">
+        <img src="https://avatars.githubusercontent.com/u/235209042?s=400&u=70e8d630aec0239b4f8330cf616cbc5f3a7fbd15&v=4" alt="Logo">
 
         <artcle>
             <p>
@@ -53,10 +53,37 @@
             <section id="contatos">
                 <h3>contatos</h3>
                     <p>Tem um projeto em mente? Entre em contato.</p>
-                    <address>
-                       Email: <a href="mailto:Jm187@jmainhardt.com.br">Jm187@jmainhardt.com.br</a> <br>
-                        Telefone: <a href="tel:(11)1234-5678">(11) 1234-5678</a>
-                    </address>
+                    
+                    <form action="">
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" name="nome">
+                         <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" required> <br>
+
+                        <label for="telefone">Telefone: </label>
+                        <input type="tel" id="telefone" name="telefone" required><br>
+
+                        <label for="assunto">Assunto: </label>
+                        <select nome=""assunto" id=""assunto">
+                                <option value=""orcamento">orcamento</option>
+                                <option value="duvida">duvida</option>
+                                <option value="outros">outros</option>
+                        </select>
+
+                        <br>
+
+                        <label for=""mensagem">Mensagem: </label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea> <br>
+
+                        <input type="checkbox" id="incricao" name="incricao">
+                        <label for="incricao">Quero me inscrever para receber novidades</label>
+
+                        <br>
+
+                        <input type="submit" value="Enviar mensagem">
+
+                    </form>
+                  
             </section>
         </footer>
 </body>
